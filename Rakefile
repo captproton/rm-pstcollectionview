@@ -9,4 +9,5 @@ Motion::Project::App.setup do |app|
   app.frameworks += %w(QuartzCore UIKit)
   app.deployment_target = "5.0"
   app.device_family = [:ipad]
+  
 end
